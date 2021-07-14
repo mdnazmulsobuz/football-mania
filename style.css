@@ -145,8 +145,16 @@ body{
     .players{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .player{
+      margin: 12px auto;
+
     }
     .video-area{
         display: none;
+    }
+    .footer-area img{
+        height: 40px;
     }
 }
