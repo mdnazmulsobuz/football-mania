@@ -74,3 +74,20 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+/* footer-area-style */
+.footer-area{
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-area img{
+    height: 110px;
+}
+.footer-area i{
+    font-size: 25px;
+    margin: 0 5px;
+    color: #7f8c8d;
+}
+.footer-area p{
+    font-size: 18px;
+    font-weight: 400;
+}
