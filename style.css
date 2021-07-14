@@ -45,8 +45,7 @@ body{
 } 
 /* player area */
 .player-area{
-    padding: 70px 0;
-    
+    padding: 70px 0;s
 }
 .players{
     display: flex;
@@ -73,7 +72,7 @@ body{
 /* gallery style */
 .gallery-area{
     background-color: #ecf0f1;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 .gallery-area h2, .video-area h2{
     color: #2c25a0;
@@ -94,7 +93,7 @@ body{
 }
 /* video gallery style  */
 .video-area{
-    padding: 80px 0;
+    padding: 70px 0;
 }
 .video-gallery{
     display: flex;
@@ -142,17 +141,33 @@ body{
     .banner-right{
         padding-top: 50px;
     }
+    .player-area{
+        padding: 30px 0;
+    }
     .players{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        
+        grid-template-columns: repeat(1, 1fr); 
     }
     .player{
       margin: 12px auto;
-
+    }
+    .gallery-area {
+        padding: 30px 0;
+    }
+    .gallery-area h2, .video-area h2{
+        font-size: 25px;
     }
     .video-area{
-        display: none;
+        padding: 30px 0;
+    }
+    .video-gallery{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;  
+    }
+    iframe{
+        width: 95%;
+        text-align: center;
     }
     .footer-area img{
         height: 40px;
