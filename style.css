@@ -49,12 +49,12 @@ body{
 .player-area{
     width: 100%;
     padding-top: 70px;
-    padding-bottom: 70px;
+    
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 25px 12%;
+    margin: 25px 210px;
 }
 .player{
     box-shadow: 2px 2px 20px #bdc3c7;
